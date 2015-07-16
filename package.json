@@ -1,0 +1,29 @@
+{
+  "name": "strip-html-comments",
+  "description": "Remove HTML comments from a string.",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/strip-html-comments.git"
+  },
+  "keywords": [
+
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/strip-html-comments/issues"
+  },
+  "homepage": "https://github.com/johnotander/strip-html-comments",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
