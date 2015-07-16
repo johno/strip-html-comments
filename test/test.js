@@ -16,6 +16,10 @@ describe('strip-html-comments', function() {
   })
 
   it('should handle a comment with no spaces', function() {
-    assert.equal(stripHtmlComments('<span><!--fooo--></span>'), '<span></span>')
+    assert.equal(stripHtmlComments('<span><!--foo--></span>'), '<span></span>')
+  })
+
+  it('should not strip invalid comments', function() {
+    assert.equal(stripHtmlComments('<span><!-- foo -></span>'), '<span><!-- foo -></span>')
   })
 })
