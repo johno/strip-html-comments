@@ -1,4 +1,4 @@
-# strip-html-comments ![Build Status](https://secure.travis-ci.org/johnotander/strip-html-comments.png?branch=master)](https://travis-ci.org/johnotander/strip-html-comments)
+# strip-html-comments [![Build Status](https://secure.travis-ci.org/johnotander/strip-html-comments.png?branch=master)](https://travis-ci.org/johnotander/strip-html-comments)
 
 Remove HTML comments from a string. This is intended to be a simple utility for the most trivial of comment stripping.
 
