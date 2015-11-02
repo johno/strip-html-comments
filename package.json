@@ -1,7 +1,7 @@
 {
   "name": "strip-html-comments",
   "description": "Remove HTML comments from a string.",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "author": {
     "name": "John Otander",
     "email": "johnotander@gmail.com",
