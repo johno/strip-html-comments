@@ -1,4 +1,4 @@
-# strip-html-comments [![Build Status](https://secure.travis-ci.org/johnotander/strip-html-comments.png?branch=master)](https://travis-ci.org/johnotander/strip-html-comments)
+# strip-html-comments [![Build Status](https://secure.travis-ci.org/johnotander/strip-html-comments.png?branch=master)](https://travis-ci.org/johnotander/strip-html-comments) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 Remove HTML comments from a string. This is intended to be a simple utility for the most trivial of comment stripping.
 
@@ -17,12 +17,6 @@ stripHtmlComments('<span>foo<!--bar--></span>')  // => '<span>foo</span>
 ```
 
 ## Known Limitations
-
-Doesn't handle nested comments like:
-
-```html
-<!-- <!-- nested comment --> -->
-```
 
 It will remove comments in `<textarea>`s:
 
