@@ -1,12 +1,12 @@
 {
   "name": "strip-html-comments",
   "description": "Remove HTML comments from a string.",
+  "version": "0.0.2",
   "author": {
     "name": "John Otander",
     "email": "johnotander@gmail.com",
     "url": "johnotander.com"
   },
-  "version": "0.0.2",
   "main": "index.js",
   "files": [
     "index.js"
@@ -18,7 +18,8 @@
   "keywords": [
     "html",
     "strip",
-    "comment"
+    "comment",
+    "comments"
   ],
   "license": "MIT",
   "dependencies": {},
